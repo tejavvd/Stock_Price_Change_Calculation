@@ -56,6 +56,6 @@ if cdo.isoweekday() and odo.isoweekday() not in {6,7}:
         print("File not found. Retry")
 else:
     if cdo.isoweekday() in {6,7}:
-        print("Current date should be a weekday or trading day. PPlease try again")
+        print("Current date should be a weekday or trading day")
     else:
         print("Old date should be a weekday or trading day")
